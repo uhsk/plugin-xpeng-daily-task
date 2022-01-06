@@ -1,0 +1,60 @@
+# 插件展示的名称
+name: 小鹏汽车签到
+
+# 插件描述
+description: 小鹏汽车每日签到活动
+
+# 插件图标
+icon: assets/icon.png
+
+# 入口JS地址
+# 请使用相对地址
+bundle: js/bundle.js
+
+# 设置界面入口
+# 请使用相对地址，资源尽量本地化
+# 非必须配置项目
+settings: html/settings.html
+
+# 当前插件的版本号
+version: 0.0.1
+
+# 点击助手最低依赖版本号
+# 非必须配置项目
+assistant: 1
+
+# 升级地址
+# 非必须配置项目
+upgrade: https://github.com/uhsk/plugin-xpeng-daily-task
+
+# 文档地址
+# 非必须配置项目
+wiki: https://github.com/uhsk/plugin-xpeng-daily-task/wiki
+
+# 缺陷追踪地址
+# 非必须配置项目
+issues: https://github.com/uhsk/plugin-xpeng-daily-task/issues
+
+# 作者
+# 非必须配置项目
+authors:
+  - sollyu
+  - ethan
+
+# 需要权限
+# 非必须配置项目
+permissions:
+  - accessibility
+
+# 网络接口
+# 只需要添加域名即可
+# 非必须配置项目
+domains:
+  - github.com
+
+# 依赖
+depends:
+    - index: -1
+      repo: https://github.com/test
+      version: 1.0.0
+
