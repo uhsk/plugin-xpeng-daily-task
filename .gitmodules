@@ -1,0 +1,3 @@
+[submodule "IntelliSense"]
+	path = IntelliSense
+	url = git@github.com:uhsk/plugin-IntelliSense.git
