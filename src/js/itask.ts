@@ -156,6 +156,9 @@ export class TaskWebDailyPage extends TaskWebPage1 {
             case '逛一逛门店':
             case '看一看二手车页面':
             case '小鹏精选好物':
+            case '加入鹏友会，领取专属福利':
+            case '领略X-walker志愿者风采':
+            case '浏览精彩鹏友活动':
                 executeTaskBean.button.click();
                 iTask = new TaskPostRead2();
                 break;
