@@ -23,5 +23,5 @@ try {
 new TaskCashingPrize().execute();
 
 // 清空通知消息
-//new TaskClearNotify().execute();
+new TaskClearNotify().execute();
 

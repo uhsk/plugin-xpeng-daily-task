@@ -104,6 +104,15 @@ export class TaskCashingPrize extends TaskWebPage2 {
  */
 export class TaskClearNotify implements ITask {
     execute(): void {
+        assistant.accessibility.wait({id: 'com.xiaopeng.mycarinfo:id/tv_tab_text', text: '鹏友', class: 'android.widget.TextView'})[0].click();
+        assistant.accessibility.wait({id: 'com.xiaopeng.mycarinfo:id/tv_notice_title', text: '积分到账通知', class: 'android.widget.TextView'})[0].click();
+        assistant.accessibility.wait({id: 'com.xiaopeng.mycarinfo:id/tv_message_desc', text: '积分到账通知', class: 'android.widget.TextView'})[0].click();
+
+        assistant.thread.sleep(1000);
+        assistant.accessibility.find({id: 'com.xiaopeng.mycarinfo:id/msg_toolbar', class: 'android.widget.RelativeLayout'})[0].child(0).click();
+        assistant.thread.sleep(1000);
+        assistant.accessibility.find({id: 'com.xiaopeng.mycarinfo:id/msg_toolbar', class: 'android.widget.RelativeLayout'})[0].child(0).click();
+        assistant.thread.sleep(1000);
     }
 }
 
