@@ -36,12 +36,9 @@ module.exports = {
                 },
                 onEnd: {
                     copy: [
-                        { source: 'src/assets'       , destination: 'dist/assets' },
-                        { source: 'src/html'         , destination: 'dist/html' },
-                        { source: 'src/manifest.yaml', destination: 'dist/manifest.yaml' },
-                    ],
-                    archive: [
-                        { source: 'dist', destination: 'dist/dist_archive.zip' }
+                        {source: 'src/assets', destination: 'dist/assets'},
+                        {source: 'src/html', destination: 'dist/html'},
+                        {source: 'src/manifest.yaml', destination: 'dist/manifest.yaml'},
                     ]
                 }
             }
